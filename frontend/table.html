@@ -1,0 +1,37 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Table with Toolbar</title>
+      <link rel="stylesheet" href="assets/css/stylesTwo.css">
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,900;1,100;1,200;1,300;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/b0be24b93b.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+      <div class="container mt-5">
+        <div class="d-flex justify-content-end mb-3">
+          <button id="block-btn" class="btn btn-danger me-2">Block</button>
+          <button id="unblock-btn" class="btn btn-warning me-2">Unblock</button>
+          <button id="delete-btn" class="btn btn-danger">Delete</button>
+        </div>
+      
+        <table class="table table-striped">
+          <thead class="table-dark">
+            <tr>
+              <th><input type="checkbox" id="select-all"></th>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Last Login</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody id="user-table-body"></tbody>
+        </table>
+      </div>
+      <script src="assets/js/table.js"></script>
+    </body>
+    </html>

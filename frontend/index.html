@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b0be24b93b.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container vh-100 d-flex justify-content-center align-items-center">
+      <div class="row w-100">
+        <div class="col-md-6 d-flex flex-column justify-content-center align-items-center text-center">
+          <img src="assets/imgs/logo.png" alt="logo" class="logo mb-3">
+          <h2>Start Your Journey</h2>
+          <p class="sign">Sign In to The App</p>
+        </div>
+    
+        <div class="col-md-6">
+          <div class="card p-4 shadow">
+            <h3 class="text-center mb-4">Log In</h3>
+            <form id="login-form">
+              <div class="mb-3">
+                <label for="e-mail" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="login-email" placeholder="you@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="login-password">
+              </div>
+              <div class="form-check mb-3">
+                <input class="form-check-input" type="checkbox" id="remember-me">
+                <label class="form-check-label" for="remember-me">Remember Me</label>
+              </div>
+              <button type="submit" class="btn btn-primary w-100">Sign In</button>
+              <p class="text-center mt-3">
+                Don't have an account? <a href="register.html" id="show-register">Sign Up</a>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/login.js"></script>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .toolbar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .filter {
+    margin-left: auto;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .custom-table thead {
+    background-color: #f1f1f1;
+  }
+  
+  .custom-table th, .custom-table td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .custom-table th input[type="checkbox"], 
+  .custom-table td input[type="checkbox"] {
+    cursor: pointer;
+  }
+  
+  .custom-table tr:hover {
+    background-color: #f9f9f9;
+  }
